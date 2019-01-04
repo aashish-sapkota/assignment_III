@@ -24,4 +24,4 @@ minimum = sorted(count, key=count.get, reverse=False)[:20]
 
 print("The 20 most frequent words are: ", maximum)
 print("The 20 least frequent words are: ", minimum)
-fhand.close()
+file_obj.close()
